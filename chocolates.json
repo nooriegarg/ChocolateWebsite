@@ -1,0 +1,100 @@
+[
+    {
+        "id":1,
+        "name":"Amul Dark Chocolate",
+        "price":200,
+        "image":"chocolate-bundle/amul-darkchoco.png"
+    },
+    {
+        "id":2,
+        "name":"Amul Milk chocolate",
+        "price":100,
+        "image":"chocolate-bundle/amul-milkchoco.png"
+    },
+    {
+        "id":3,
+        "name":"Cadbury 5Star",
+        "price":200,
+        "image":"chocolate-bundle/cadbury-5star.png"
+    },
+    {
+        "id":4,
+        "name":"DairyMilk Bubbly",
+        "price":200,
+        "image":"chocolate-bundle/dairymilk-bubbly-removebg-preview.png"
+    },
+    {
+        "id":5,
+        "name":"Fabelle Intense Dark",
+        "price":200,
+        "image":"chocolate-bundle/fabelle-intensedark.png"
+    },
+    {
+        "id":6,
+        "name":"Fabelle Open Secret",
+        "price":200,
+        "image":"chocolate-bundle/fabelle-opensecret.png"
+    },
+    {
+        "id":7,
+        "name":"Ferrero Rocher",
+        "price":200,
+        "image":"chocolate-bundle/ferrero-rocher.png"
+    },
+    {
+        "id":8,
+        "name":"Godiva Truffles",
+        "price":200,
+        "image":"chocolate-bundle/godiva-choco.png"
+    },
+    {
+        "id":9,
+        "name":"Godiva Dark Chocolate",
+        "price":200,
+        "image":"chocolate-bundle/godiva-darkchoco.png"
+    },
+    {
+        "id":10,
+        "name":"Hershey's Milk Choco",
+        "price":200,
+        "image":"chocolate-bundle/amul-darkchoco.png"
+    },
+    {
+        "id":11,
+        "name":"Lindt Caramel Dark",
+        "price":200,
+        "image":"chocolate-bundle/lindt-chocolate-excellence-caramel-intense-dark.png"
+    },
+    {
+        "id":12,
+        "name":"Lindt Orange Milk",
+        "price":200,
+        "image":"chocolate-bundle/lindt-lindor-blood-orange-milk-chocolate-truffles-box-200g.png"
+    },
+    {
+        "id":13,
+        "name":"Mars Minis",
+        "price":200,
+        "image":"chocolate-bundle/mars-minis.png"
+    },
+    {
+        "id":14,
+        "name":"Nestle Classic",
+        "price":200,
+        "image":"chocolate-bundle/nestle-classic-chocolate-rich-flavour-delicious.png"
+    },
+    {
+        "id":15,
+        "name":"Nestle Kitkat",
+        "price":200,
+        "image":"chocolate-bundle/nestle-kitkat-removebg-preview.png"
+    },
+    {
+        "id":16,
+        "name":"Tobelrone x2",
+        "price":200,
+        "image":"chocolate-bundle/tobelrone-removebg-preview.png"
+    }
+
+
+]

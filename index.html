@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lemon&family=Lilita+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="js/carousel.js" defer></script>
+    <title>High Chocolates</title>
+</head>
+<body>
+    <!-- banner and nav bar -->
+    <div class="banner-container">
+        <img src="banners/choco-banner.jpg">
+        <p id="yellow">YUMMY</p><br><p id="white"> Chocolates</p>
+
+        <div class="nav-bar">
+            <a href="#" >Home</a>
+            <a href="chocolates.html" >Create Pack</a>
+            <a href="" >Your Packs</a>
+
+        </div>
+    </div>
+
+    <!-- product carousel -->
+    <div  class="carousel-container">
+        <h1>--Our Best selling Chocolates--</h1>
+        <div class="carousel" id="slider">
+            <button  id="prev-slider" class="slide-button" onclick="prev()"><</button>
+            <div class="item">
+                <img src="chocolate-bundle/amul-darkchoco.png" class="image-item">
+                <img src="chocolate-bundle/amul-milkchoco.png" class="image-item">
+                <img src="chocolate-bundle/cadbury-5star.png" class="image-item">
+                <img src="chocolate-bundle/dairymilk-bubbly-removebg-preview.png" class="image-item">
+                <img src="chocolate-bundle/fabelle-intensedark.png" class="image-item">
+                <img src="chocolate-bundle/fabelle-opensecret.png" class="image-item">
+                <img src="chocolate-bundle/ferrero-rocher-removebg-preview.png" class="image-item">
+                <img src="chocolate-bundle/godiva-choco.png" class="image-item">
+                <img src="chocolate-bundle/godiva-darkchoco.png" class="image-item">
+                <img src="chocolate-bundle/godiva-milkchoco-removebg-preview.png" class="image-item">
+                <img src="chocolate-bundle/hersheys-milkchoco.png" class="image-item">
+                <img src="chocolate-bundle/lindt-chocolate-excellence-caramel-intense-dark.png" class="image-item">
+                <img src="chocolate-bundle/lindt-lindor-blood-orange-milk-chocolate-truffles-box-200g.png" class="image-item">
+                <img src="chocolate-bundle/mars-minis.png" class="image-item">
+                <img src="chocolate-bundle/tobelrone-removebg-preview.png" class="image-item">
+                <img src="chocolate-bundle/snickers-berrywhip-removebg-preview.png" class="image-item">
+            </div>
+            <button id="next-slider" class="slide-button"  onclick="next()">></button>
+        </div>
+    </div>
+
+    <footer>
+        <hr>
+        <h3>Made with &#9829; by Noorie Garg</h3>
+    </footer>
+    
+</body>
+
+<script>
+    const products = document.querySelector(".item")
+    let counter =0;
+
+    console.log(products)
+
+    function prev(){
+        counter--
+        scroll()
+    }
+
+    function next(){
+        counter++
+        scroll()
+    }
+
+    function scroll(){
+        products.forEach(element =>{
+            element.style.transform = `translateX(-${counter * 1250}px)`
+        });
+    }
+</script>
+
+
+
+</html>
